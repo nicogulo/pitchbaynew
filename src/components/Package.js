@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { Check, Prev, Next } from "assets/static/icon";
+import { Check } from "assets/static/icon";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;

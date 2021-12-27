@@ -1,23 +1,15 @@
-import {
-  Chart,
-  Monitor,
-  Quote,
-  Flow,
-  Dot,
-  Picture,
-  StaticWire,
-} from "assets/static/icon";
+// import { Chart, Monitor, Quote, Flow, Dot, Picture } from "assets/static/icon";
 import SlickStatic from "./parts/SlickStatic";
 import LinkOrange from "assets/static/icon/LinkOrange.png";
 
-const btntype = [
-  { name: "Chart", icon: <Chart /> },
-  { name: "Graphic", icon: <Picture /> },
-  { name: "Mockup", icon: <Monitor /> },
-  { name: "Flow", icon: <Flow /> },
-  { name: "Testimonial", icon: <Quote /> },
-  { name: "45+ More", icon: <Dot /> },
-];
+// const btntype = [
+//   { name: "Chart", icon: <Chart /> },
+//   { name: "Graphic", icon: <Picture /> },
+//   { name: "Mockup", icon: <Monitor /> },
+//   { name: "Flow", icon: <Flow /> },
+//   { name: "Testimonial", icon: <Quote /> },
+//   { name: "45+ More", icon: <Dot /> },
+// ];
 
 export default function Static() {
   return (

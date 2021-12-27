@@ -49,7 +49,8 @@ function Countdown() {
   return (
     <>
       {timerComponents.length ? (
-        <span className="sm5:text-5 sm5:mb-6 text-6 text-base-dark-6 bids flex sm1:flex-col sm2:flex-col sm3:flex-col sm4:flex-col sm5:flex-col mb-13 items-center">
+        // <span className="sm5:text-5 sm5:mb-6 text-6 text-base-dark-6 bids flex sm1:flex-col sm2:flex-col sm3:flex-col sm4:flex-col sm5:flex-col mb-13 items-center">
+        <span className="sm5:text-5 sm5:mb-6 text-6 text-base-dark-6 bids flex  mb-13 items-center">
           <span className="flex sm1:flex-row sm2:flex-row sm3:flex-row sm4:flex-row sm5:flex-row items-center">
             <span className="pr-3">
               <Clock />
@@ -59,7 +60,7 @@ function Countdown() {
           <span className="text-green pl-3">{timerComponents}</span>
         </span>
       ) : (
-        <span className="sm5:text-5 sm5:mb-6 text-6 text-base-dark-6 bids flex sm1:flex-col sm2:flex-col sm3:flex-col sm4:flex-col sm5:flex-col mb-13 items-center">
+        <span className="sm5:text-5 sm5:mb-6 text-6 text-base-dark-6 bids flex  mb-13 items-center">
           <span className="flex sm1:flex-row sm2:flex-row sm3:flex-row sm4:flex-row sm5:flex-row items-center">
             <span className="pr-3">
               <Clock />

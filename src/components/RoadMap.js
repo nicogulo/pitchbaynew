@@ -1,5 +1,6 @@
 import React from "react";
 import { Dolar, AquaStar, RainbowStar, Check } from "assets/static/icon";
+import LinkGreen from "assets/static/icon/LinkGreen.png";
 import Package from "./Package";
 
 const pack = [
@@ -89,13 +90,7 @@ const RoadMap = () => {
       </section>
       <div className="">
         <div style={{ marginBottom: 20 }}>
-          <image
-            src="/static/icon/LinkGreen.png"
-            alt=""
-            width={37}
-            height={28}
-            className="ss"
-          />
+          <img src={LinkGreen} alt="" width={37} height={28} className="ss" />
         </div>
         <h2
           className="text-17 lg1:text-17 lg2:text-17 lg3:text-17 lg4:text-17 lg5:text-17 md1:text-13 md2:text-13 md3:text-13 "

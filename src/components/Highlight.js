@@ -9,17 +9,20 @@ import {
   WireFixRight,
 } from "assets/static/icon";
 
+import Linkorange from "assets/static/icon/LinkOrange.png";
+import lamp from "assets/static/icon/lamp.png";
+
 export default function Hightlight() {
   return (
     <section className="">
       <div className="text-center">
-        <div style={{ marginBottom: 20 }}>
-          <image
-            src="assets/static/icon/LinkOrange.png"
+        <div className="flex justify-center" style={{ marginBottom: 20 }}>
+          <img
+            src={Linkorange}
+            // src="assets/static/icon/LinkOrange.png"
             alt=""
             width={37}
             height={28}
-            className="ss"
           />
         </div>
 
@@ -162,7 +165,7 @@ export default function Hightlight() {
                 </button>
               </div>
               <div className="highlight-icon">
-                <img src="assets/static/icon/lamp.png" alt="" />
+                <img src={lamp} alt="" />
                 {/* <image src="assets/static/icon/lamp.png" alt="highlight-icon" /> */}
                 <button
                   className="button-icon-soon text-6   mt-7"

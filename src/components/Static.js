@@ -8,7 +8,7 @@ import {
   StaticWire,
 } from "assets/static/icon";
 import SlickStatic from "./parts/SlickStatic";
-
+import LinkOrange from "assets/static/icon/LinkOrange.png";
 
 const btntype = [
   { name: "Chart", icon: <Chart /> },
@@ -26,8 +26,8 @@ export default function Static() {
         <div className=" flex lg1:flex-col lg2:flex-col lg3:flex-col lg4:flex-col lg5:flex-col md1:flex-col md2:flex-col md3:flex-col ">
           <div className="container-static">
             <div style={{ marginBottom: 20 }}>
-              <image
-                src="/static/icon/LinkOrange.png"
+              <img
+                src={LinkOrange}
                 alt=""
                 width={37}
                 height={28}

@@ -1,16 +1,12 @@
 import { WhiteStar, Section, Section2 } from "assets/static/icon";
+import LinkPurple from "assets/static/icon/LinkPurple.png";
+
 export default function Platform() {
   return (
     <section>
       <div className="flex items-center flex-col text-center mb-27 lg1:mb-27 lg2:mb-27 lg3:mb-27 lg4:mb-27 lg5:mb-27 md1:mb-23 md2:mb-23 md3:mb-23">
         <div style={{ marginBottom: 20 }}>
-          <image
-            src="assets/static/icon/LinkPurple.png"
-            alt=""
-            width={37}
-            height={28}
-            className="ss"
-          />
+          <img src={LinkPurple} alt="" width={37} height={28} className="ss" />
         </div>
 
         <h2

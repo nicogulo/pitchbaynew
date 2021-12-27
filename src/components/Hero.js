@@ -1,6 +1,8 @@
 import { PurpleStar, YellowStar } from "assets/static/icon";
 import Countdown from "./Countdown";
 
+import highlight from "assets/static/highlight.png";
+
 export default function Hero() {
   return (
     <section className="">
@@ -42,7 +44,7 @@ export default function Hero() {
         >
           Buy only for $5
         </button>
-        <img src="/static/highlight.png" alt="" />
+        <img src={highlight} alt="Hero" />
       </div>
     </section>
   );

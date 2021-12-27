@@ -9,7 +9,16 @@ import {
   Dot,
   Picture,
   StaticWire,
+  StaticWire2,
+  StaticWire3,
+  StaticWire4,
+  StaticWire5,
 } from "assets/static/icon";
+import One from "assets/static/icon/1.svg";
+import Two from "assets/static/icon/2.svg";
+import Theree from "assets/static/icon/3.svg";
+import Four from "assets/static/icon/4.svg";
+import Five from "assets/static/icon/5.svg";
 // import SlickStatic from "./parts/SlickStatic";
 
 const btnType = [
@@ -62,22 +71,22 @@ export default class SlickStatic extends Component {
       <div>
         <Slider {...settings}>
           <div className=" justify-end ">
-            <StaticWire />
+            <img src={One} alt="One" />
           </div>
           <div className=" justify-end ">
-            <StaticWire />
+            <img src={Two} alt="Two" />
           </div>
           <div className=" justify-end ">
-            <StaticWire />
+            <img src={Theree} alt="Theree" />
           </div>
           <div className=" justify-end ">
-            <StaticWire />
+            <img src={Four} alt="Four" />
           </div>
           <div className=" justify-end ">
-            <StaticWire />
+            <img src={Five} alt="Five" />
           </div>
           <div className=" justify-end ">
-            <StaticWire />
+            <img src={One} alt="One" />
           </div>
         </Slider>
       </div>

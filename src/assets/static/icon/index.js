@@ -15,6 +15,11 @@ export { Support } from "./Support";
 export { WireFixLeft } from "./WireFixLeft";
 export { WireFixRight } from "./WireFixRight";
 export { StaticWire } from "./StaticWire";
+export { StaticWire2 } from "./StaticWire2";
+export { StaticWire3 } from "./StaticWire3";
+export { StaticWire4 } from "./StaticWire4";
+export { StaticWire5 } from "./StaticWire5";
+
 export { StaticWireFooter } from "./StaticWireFooter";
 export { Ppt } from "./Ppt";
 export { Slide } from "./Slide";

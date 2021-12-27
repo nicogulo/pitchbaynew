@@ -64,7 +64,7 @@ export default function Footer() {
           <ul className="flex gap-8">
             <li>
               <a
-                href="#"
+                href="/"
                 className="text-7 text-base-light-7 font-medium leading-4"
                 style={{ lineHeight: "150%", fontWeight: 425 }}
               >

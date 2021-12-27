@@ -1,19 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-import {
-  Chart,
-  Monitor,
-  Quote,
-  Flow,
-  Dot,
-  Picture,
-  StaticWire,
-  StaticWire2,
-  StaticWire3,
-  StaticWire4,
-  StaticWire5,
-} from "assets/static/icon";
+import { Chart, Monitor, Quote, Flow, Dot, Picture } from "assets/static/icon";
 import One from "assets/static/icon/1.svg";
 import Two from "assets/static/icon/2.svg";
 import Theree from "assets/static/icon/3.svg";
@@ -30,7 +18,7 @@ const btnType = [
   { name: "45+ More", icon: <Dot /> },
 ];
 
-const baseUrl = "assets/static";
+// const baseUrl = "assets/static";
 
 export default class SlickStatic extends Component {
   render() {
@@ -53,7 +41,7 @@ export default class SlickStatic extends Component {
                   {btnType[i].icon}
                 </span>
                 {btnType[i].name}
-            </button>
+              </button>
             </div>
           </a>
         );

@@ -53,7 +53,7 @@ export default class SlickStatic extends Component {
                   {btnType[i].icon}
                 </span>
                 {btnType[i].name}
-              </button>
+            </button>
             </div>
           </a>
         );

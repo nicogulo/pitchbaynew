@@ -33,7 +33,7 @@ export default function Hero() {
         </p>
 
         <button
-          className="button text-7 text-base-light-7 "
+          className="button text-7 text-base-light-7 flex items-center"
           style={{
             width: 222,
             height: 56,

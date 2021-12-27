@@ -5,6 +5,7 @@ import {
   PurpleStar2,
   StaticWireFooter,
 } from "assets/static/icon";
+import LinkColor from "assets/static/icon/LinkColor.png";
 
 export default function Footer() {
   return (
@@ -19,13 +20,7 @@ export default function Footer() {
           <PurpleStar2 />
 
           <div style={{ marginBottom: 20 }}>
-            <image
-              src="/static/icon/LinkColor.png"
-              alt=""
-              width={37}
-              height={28}
-              className="ss"
-            />
+            <img src={LinkColor} alt="" width={37} height={28} className="ss" />
           </div>
 
           <h2

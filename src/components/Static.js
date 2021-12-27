@@ -14,7 +14,7 @@ import LinkOrange from "assets/static/icon/LinkOrange.png";
 export default function Static() {
   return (
     <section>
-      <div className="flex lg1:flex-row lg2:flex-row lg3:flex-row lg4:flex-row lg5:flex-row md1:flex-col md2:flex-col md3:flex-col  justify-between lg1:gap-x-4 lg2:gap-x-4 lg3:gap-x-4 lg4:gap-x-4 lg5:gap-x-4  gap-x-20">
+    <div className="flex lg1:flex-row lg2:flex-row lg3:flex-row lg4:flex-row lg5:flex-row md1:flex-col md2:flex-col md3:flex-col  justify-between lg1:gap-x-4 lg2:gap-x-4 lg3:gap-x-4 lg4:gap-x-4 lg5:gap-x-4  gap-x-20">
         <div className=" flex lg1:flex-col lg2:flex-col lg3:flex-col lg4:flex-col lg5:flex-col md1:flex-col md2:flex-col md3:flex-col ">
           <div className="container-static">
             <div style={{ marginBottom: 20 }}>

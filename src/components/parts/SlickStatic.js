@@ -59,22 +59,22 @@ export default class SlickStatic extends Component {
       <div>
         <Slider {...settings}>
           <div className=" justify-end ">
-            <img src={One} alt="One" />
+            <img className="object-cover" src={One} alt="One" />
           </div>
           <div className=" justify-end ">
-            <img src={Two} alt="Two" />
+            <img className="object-cover" src={Two} alt="Two" />
           </div>
           <div className=" justify-end ">
-            <img src={Theree} alt="Theree" />
+            <img className="object-cover" src={Theree} alt="Theree" />
           </div>
           <div className=" justify-end ">
-            <img src={Four} alt="Four" />
+            <img className="object-cover" src={Four} alt="Four" />
           </div>
           <div className=" justify-end ">
-            <img src={Five} alt="Five" />
+            <img className="object-cover" src={Five} alt="Five" />
           </div>
           <div className=" justify-end ">
-            <img src={One} alt="One" />
+            <img className="object-cover" src={One} alt="One" />
           </div>
         </Slider>
       </div>

@@ -44,7 +44,7 @@ export default function Hero() {
         >
           Buy only for $5
         </button>
-        <img src={highlight} alt="Hero" />
+        <img src={highlight} alt="Hero" className="object-cover" />
       </div>
     </section>
   );

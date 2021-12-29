@@ -24,6 +24,25 @@
     align-items: center;
   }
 
+
+
+  /* HERO */
+
+  .PurpleStar {
+    width: 160px;
+    height: 160px;
+    left: -60%;
+    top: -30%;
+  }
+
+  .YellowStar {
+    width: 400px;
+    height: 400px;
+    top: -25%;
+  }
+
+
+  /* END HERO */
   .container-static {
     max-width: 1220px;
   }
@@ -54,6 +73,41 @@
   }
 
   /* END STATIC */
+
+  /* ROADMAP */
+  .AquaStar {
+    width: 160px;
+    height: 160px;
+    left: 28%;
+    top: 4160px;
+  }
+
+  .RainbowStar {
+    width: 160px;
+    height: 160px;
+    right: 28%;
+    top: 4490px;
+  }
+
+  /* END ROADMAP */
+
+  /* FOOTER */
+
+  .GreenStar {
+    width: 160px;
+    height: 160px;
+    left: 30%;
+    top: 5420px;
+  }
+
+  .PurpleStar2 {
+    width: 160px;
+    height: 160px;
+    right: 28%;
+    top: 5654px;
+  }
+
+  /* END FOOTE */
 
 }
 
@@ -170,14 +224,14 @@
     width: 160px;
     height: 160px;
     left: 28%;
-    top: 3760px;
+    top: 4160px;
   }
 
   .RainbowStar {
     width: 160px;
     height: 160px;
     right: 28%;
-    top: 3990px;
+    top: 4390px;
   }
 
   /* END ROADMAP */
@@ -188,14 +242,14 @@
     width: 160px;
     height: 160px;
     left: 30%;
-    top: 5020px;
+    top: 5420px;
   }
 
   .PurpleStar2 {
     width: 160px;
     height: 160px;
     right: 28%;
-    top: 5254px;
+    top: 5654px;
   }
 
   /* END FOOTE */
@@ -905,15 +959,15 @@
     width: 160px;
     height: 160px;
     left: 10%;
-    
-  top: 3750px;
+
+    top: 3750px;
   }
 
   .RainbowStar {
     width: 160px;
     height: 160px;
     right: 10%;
-  top: 4000px;
+    top: 4000px;
 
   }
 
@@ -1190,7 +1244,7 @@
     width: 160px;
     height: 160px;
     left: 10%;
-    
+
     top: 3750px;
 
   }
@@ -1199,11 +1253,11 @@
     width: 160px;
     height: 160px;
     right: 10%;
-  top: 4000px;
+    top: 4000px;
   }
 
 
- 
+
 
   .date {
     width: 160px;
@@ -1458,7 +1512,7 @@
   /* END STATIC */
 
   /* FOOTER */
- 
+
   .GreenStar {
     width: 160px;
     height: 160px;
@@ -1632,7 +1686,7 @@
     width: 160px;
     height: 160px;
     left: 8%;
-    
+
     top: 3750px;
 
   }
@@ -1641,7 +1695,7 @@
     width: 160px;
     height: 160px;
     right: 8%;
-  top: 4000px;
+    top: 4000px;
   }
 
 

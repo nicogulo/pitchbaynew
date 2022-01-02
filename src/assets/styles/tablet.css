@@ -20,16 +20,16 @@
   /* END HERO */
 
 
-   /* NAVIGATION BAR */
-   .main-nav {
+  /* NAVIGATION BAR */
+  .main-nav {
     display: none;
   }
 
-.mobile-nav {
+  .mobile-nav {
     display: block;
     /* margin-top: 24px; */
   }
-  
+
   /* NAVBAR */
   .nav {
 
@@ -535,7 +535,7 @@
     top: 4563px
   }
 
-  
+
   .PurpleStar2 {
     width: 160px;
     height: 160px;
@@ -759,13 +759,13 @@
 
   /* NAVIGATION BAR */
   .main-nav {
-      display: none;
-    }
+    display: none;
+  }
 
   .mobile-nav {
-      display: block;
-      /* margin-top: 24px; */
-    }
+    display: block;
+    /* margin-top: 24px; */
+  }
 
   /* HERO SECTION */
   h1 {
@@ -1092,12 +1092,12 @@
 
 
 
-   /* NAVIGATION BAR */
-   .main-nav {
+  /* NAVIGATION BAR */
+  .main-nav {
     display: none;
   }
 
-.mobile-nav {
+  .mobile-nav {
     display: block;
     /* margin-top: 24px; */
   }

@@ -266,14 +266,14 @@
   .PurpleStar {
     width: 45.25px;
     height: 45.25px;
-    left: -20%;
+    left: -41%;
     top: -20%;
   }
 
   .YellowStar {
     width: 80px;
     height: 80px;
-    right: -20%;
+    right: -40%;
     top: 180px;
   }
 
@@ -487,11 +487,11 @@
 
   /* ROADMAP */
   .roadmap {
-    margin-top: 400px !important;
+    margin-top: 580px !important;
   }
 
   .roadmap-title {
-    margin-bottom: 100px !important;
+    margin-bottom: 180px !important;
   }
 
   .pack {
@@ -552,7 +552,7 @@
 
   /* FOOTER */
   .footer {
-    margin-top: 80px;
+    margin-top: 120px;
   }
 
   .container-footer {
@@ -1074,7 +1074,7 @@
 
   /* ROADMAP */
   .roadmap {
-    margin-top: 400px !important;
+    margin-top: 480px !important;
   }
 
   .roadmap-title {
